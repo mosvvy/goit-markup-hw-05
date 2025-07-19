@@ -675,8 +675,12 @@ input.form-input {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input .form-input-icon {
+.form-input:focus .form-input-icon {
   fill: #4d5ae5;
+}
+
+.comment-container {
+  margin-bottom: 16px;
 }
 
 textarea.form-input {
@@ -697,10 +701,14 @@ textarea.form-input {
   fill: transparent;
 }
 
-input:checked + span {
+input:checked + label > span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.privacy-link {
+  color: #4d5ae5;
 }
 
 .modal .cta {
