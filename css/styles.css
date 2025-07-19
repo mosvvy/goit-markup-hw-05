@@ -669,6 +669,7 @@ input.form-input {
 
 .form-input-icon {
   position: absolute;
+  fill: #2e2f42;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
@@ -684,7 +685,16 @@ input.form-input {
 }
 
 textarea.form-input {
-  resize: vertical;
+  resize: none;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.accept-wrapper {
+  margin-bottom: 24px;
 }
 
 .accept-icon-wrapper {
