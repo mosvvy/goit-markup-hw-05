@@ -440,7 +440,12 @@ body {
 .footer-section .container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+.footer-1st {
+  margin-right: 120px;
+}
+.footer-2nd {
+  margin-right: 80px;
 }
 
 .footer-section .logo {
@@ -505,20 +510,10 @@ body {
 }
 
 .submit-btn {
-  color: #ffffff;
-  border-radius: 4px;
   padding: 8px 24px;
-  background: #4d5ae5;
   min-width: 165px;
   height: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  cursor: pointer;
   border: none;
   border-radius: 4px;
 }
@@ -562,8 +557,6 @@ body {
   padding: 72px 24px 24px 24px;
 
   position: absolute;
-  top: 50%;
-  left: 50%;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -614,7 +607,6 @@ body {
 .modal-form {
   display: flex;
   flex-direction: column;
-  gap: 4px;
   margin-bottom: 16px;
 }
 
@@ -714,6 +706,9 @@ textarea.form-input {
 input:checked + label > span {
   background-color: #404bbf;
   border: none;
+}
+
+input:checked + label > span > svg {
   fill: #f4f4fd;
 }
 
