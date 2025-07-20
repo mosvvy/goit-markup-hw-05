@@ -513,6 +513,9 @@ body {
   padding: 8px 24px;
   min-width: 165px;
   height: 40px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
   display: flex;
   border: none;
   border-radius: 4px;
@@ -706,6 +709,7 @@ textarea.form-input {
 input:checked + label > span {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 input:checked + label > span > svg {
